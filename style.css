@@ -1,0 +1,28 @@
+
+html, body {
+  height: 100%;
+  background-image: url("images/backgroundcolor.png");
+  background-repeat:no-repeat;
+  background-size: auto;
+  background-position:center;
+
+}
+
+
+
+#menu{
+  height:auto;
+  width: 5%;
+
+}
+
+#background{
+  position: center;
+  width:100%;
+  height: auto;
+}
+
+.waves-effect.waves-blue .waves-ripple{
+  background-color: rgba(56, 115, 207, 0.65);
+
+}
