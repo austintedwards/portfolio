@@ -7,8 +7,15 @@ html, body {
   background-position:center;
 
 }
+header, main, footer {
+  padding-left: 300px;
+}
 
-
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
 
 #menu{
   height:auto;
@@ -24,5 +31,4 @@ html, body {
 
 .waves-effect.waves-blue .waves-ripple{
   background-color: rgba(56, 115, 207, 0.65);
-
 }

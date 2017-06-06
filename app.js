@@ -2,7 +2,7 @@ $(document).ready(function(){
   $('.modal').modal();
 
   $(".button-collapse").sideNav({
-    menuWidth: 350
+    menuWidth: 300
   });
 
 });
