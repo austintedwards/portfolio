@@ -16,5 +16,8 @@ $(document).ready(function(){
   $("#github").click(function(){
     window.open("http://www.github.com/austintedwards");
   });
+  $("#galvanize").click(function(){
+    window.open("https://talent.galvanize.com/students/1210");
+  });
 
 });

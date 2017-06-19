@@ -44,6 +44,10 @@ header, main, footer {
   width:6%;
   height: 6%;
 }
+#galvanize{
+  width:3.5%;
+  height: 3.5%;
+}
 
 .waves-effect.waves-blue .waves-ripple{
   background-color: rgba(56, 115, 207, 0.65);
