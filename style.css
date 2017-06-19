@@ -22,11 +22,27 @@ header, main, footer {
   width: 5%;
 
 }
+#linkicons{
+  display: flex;
+  justify-content: space-around;
+}
 
 #background{
   position: center;
   width:100%;
   height: auto;
+}
+#linkedin{
+  width:6%;
+  height:6%;
+}
+#github{
+  width:6%;
+  height:6%;
+}
+#gmail{
+  width:6%;
+  height: 6%;
 }
 
 .waves-effect.waves-blue .waves-ripple{
