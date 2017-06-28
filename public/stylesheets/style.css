@@ -59,31 +59,40 @@ header, main, footer {
   font-family: Righteous
 }
 .aboutStuff{
-  position:relative;
+  /*position:relative;
   width:100%;
-  height: 100%;
-  padding-bottom: 100%;
+  height: 100%;*/
+  /*padding-bottom: 100%;*/
 
 }
-.aboutContent{
+/*.aboutContent{
   position: absolute;
-  /*padding-bottom: 100%;*/
-}
-.me{
+  padding-bottom: 100%;
+}*/
+/*.me{
   position: absolute;
-  /*width:50%;
-  height: 100%;*/
+  width:50%;
+  height: 100%;
   opacity: 0.1;
-}
+}*/
 .bio{
-  font-size: 125%;
+  font-size: 115%;
   font-family: 'Libre Baskerville', serif;
   text-indent: 50px;
-  padding-right: 10%;
-  padding-left: 10%;
+  padding-right: 12%;
+  padding-left: 12%;
   color: #23225e;
 }
-
+.dice{
+  display: block;
+   margin: auto;
+   width: 250px;
+}
+.blueFire{
+  display: block;
+   margin: auto;
+   width: 250px;
+}
 
 
 
