@@ -71,8 +71,8 @@ header, main, footer {
 }
 .me{
   position: absolute;
-  width:100%;
-  height: auto;
+  /*width:50%;
+  height: 100%;*/
   opacity: 0.1;
 }
 .bio{
