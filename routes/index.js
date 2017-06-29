@@ -18,4 +18,8 @@ router.get('/drawings', function(req, res, next) {
   res.render('drawings', { title: 'I used to draw' });
 });
 
+router.get('/resume', function(req, res, next) {
+  res.render('resume', { title: 'resume' });
+});
+
 module.exports = router;

@@ -79,6 +79,7 @@ header, main, footer {
   padding-right: 12%;
   padding-left: 12%;
   color: #23225e;
+
 }
 .dice{
   display: block;
@@ -122,6 +123,12 @@ header, main, footer {
   margin-top:50px;
   margin-bottom:50px;
 
+}
+.resume{
+  display: block;
+   margin: auto;
+   width:75%;
+   height: auto;
 }
 
 
