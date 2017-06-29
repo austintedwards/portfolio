@@ -12,6 +12,15 @@ $(document).ready(function(){
   $(".pixel").click(function(){
     $('#modalPixel').modal('open');
   });
+  $(".apple").click(function(){
+    window.open("https://itunes.apple.com/us/app/liarsdice-g41/id1227108328?ls=1&mt=8");
+
+  });
+  $(".android").click(function(){
+    window.open("https://play.google.com/store/apps/details?id=com.ionicframework.liarsdice615224");
+
+
+  });
   $(".button-collapse").sideNav({
     menuWidth: 300
   });

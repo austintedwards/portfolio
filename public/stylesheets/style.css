@@ -122,7 +122,6 @@ header, main, footer {
 .grid-example{
   margin-top:50px;
   margin-bottom:50px;
-
 }
 .resume{
   display: block;
@@ -136,8 +135,12 @@ header, main, footer {
    /*width:200px;*/
    height: auto;
 }
-
-
+.download{
+  display: block;
+   margin: auto;
+  height:100px;
+  width:auto;
+}
 .waves-effect.waves-blue .waves-ripple{
   background-color: rgba(56, 115, 207, 0.65);
 }
