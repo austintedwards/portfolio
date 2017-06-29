@@ -1,6 +1,14 @@
 $(document).ready(function(){
   $('.modal').modal();
-
+  $(".dice").click(function(){
+    $('#modalDi').modal('open');
+  });
+  $(".blueFire").click(function(){
+    $('#modalFire').modal('open');
+  });
+  $(".gratune").click(function(){
+    $('#modalGrat').modal('open');
+  });
   $(".button-collapse").sideNav({
     menuWidth: 300
   });
