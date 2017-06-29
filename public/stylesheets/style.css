@@ -51,7 +51,7 @@ header, main, footer {
 
 .aboutTitle{
   text-align: center;
-  font-family: 'Righteous', cursive;
+  font-family: 'Futura', sans-serif;
   color: #23225e;
 
 }
@@ -85,6 +85,9 @@ header, main, footer {
    margin: auto;
    width: 250px;
    color: #23225e;
+   text-align: center;
+   font-family: 'Righteous', cursive;
+   color: #23225e;
 
 }
 .blueFire{
@@ -112,6 +115,8 @@ header, main, footer {
    width: 250px;
    font-size: 250%;
    text-align: center;
+   font-family: "SubwayTickerGrid";
+
 }
 .grid-example{
   margin-top:50px;
