@@ -105,6 +105,14 @@ header, main, footer {
    font-size: 250%;
    text-align: center;
 }
+.pixel{
+  display: block;
+   margin: auto;
+   color: #23225e;
+   width: 250px;
+   font-size: 250%;
+   text-align: center;
+}
 .grid-example{
   margin-top:50px;
   margin-bottom:50px;

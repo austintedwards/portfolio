@@ -9,6 +9,9 @@ $(document).ready(function(){
   $(".gratune").click(function(){
     $('#modalGrat').modal('open');
   });
+  $(".pixel").click(function(){
+    $('#modalPixel').modal('open');
+  });
   $(".button-collapse").sideNav({
     menuWidth: 300
   });
