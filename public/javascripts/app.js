@@ -21,6 +21,9 @@ $(document).ready(function(){
   $(".githubGratune").click(function(){
     window.open("https://github.com/Gratune/gratune-app");
   });
+  $(".actNow").click(function(){
+    window.open("https://activity-now.firebaseapp.com/");
+  });
   $(".button-collapse").sideNav({
     menuWidth: 300
   });
