@@ -24,6 +24,12 @@ $(document).ready(function(){
   $(".actNow").click(function(){
     window.open("https://activity-now.firebaseapp.com/");
   });
+  $(".pixelLink").click(function(){
+    window.open("https://pixelartmaker-9677d.firebaseapp.com/");
+  });
+  $(".githubPixel").click(function(){
+      window.open("https://github.com/austintedwards/pixel-art-maker");
+  });
   $(".button-collapse").sideNav({
     menuWidth: 300
   });

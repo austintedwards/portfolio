@@ -159,6 +159,18 @@ header, main, footer {
   height:200px;
   width:auto;
 }
+.pixelLink{
+  display: block;
+   margin: auto;
+  height:200px;
+  width:auto;
+}
+.githubPixel{
+  display: block;
+   margin: auto;
+  height:200px;
+  width:auto;
+}
 .waves-effect.waves-blue .waves-ripple{
   background-color: rgba(56, 115, 207, 0.65);
 }
