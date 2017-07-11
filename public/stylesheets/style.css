@@ -153,6 +153,12 @@ header, main, footer {
   height:200px;
   width:auto;
 }
+.githubActivity{
+  display: block;
+   margin: auto;
+  height:200px;
+  width:auto;
+}
 .actNow{
   display: block;
    margin: auto;
