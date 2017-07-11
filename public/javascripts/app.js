@@ -33,6 +33,9 @@ $(document).ready(function(){
   $(".githubPixel").click(function(){
       window.open("https://github.com/austintedwards/pixel-art-maker");
   });
+  $(".githubDice").click(function(){
+      window.open("https://github.com/austintedwards/LiarsDice");
+  });
   $(".button-collapse").sideNav({
     menuWidth: 300
   });
