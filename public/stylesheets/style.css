@@ -55,23 +55,7 @@ header, main, footer {
   color: #23225e;
 
 }
-.aboutStuff{
-  /*position:relative;
-  width:100%;
-  height: 100%;*/
-  /*padding-bottom: 100%;*/
 
-}
-/*.aboutContent{
-  position: absolute;
-  padding-bottom: 100%;
-}*/
-/*.me{
-  position: absolute;
-  width:50%;
-  height: 100%;
-  opacity: 0.1;
-}*/
 .bio{
   font-size: 115%;
   font-family: 'Libre Baskerville', serif;
