@@ -16,9 +16,9 @@ class App extends Component {
 active(n){
   let x = document.getElementsByTagName("a")
   console.log(x,n)
-  x.forEach((a)=>{
-    console.log(a)
-  })
+  // x.forEach((a)=>{
+  //   console.log(a)
+  // })
 }
   render() {
     return (
