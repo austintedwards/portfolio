@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 import Title from './Title';
+import Portfolio from './Portfolio';
+import Resume from './Resume';
+import About from './About';
+import Drawings from './Drawings';
 
 
 class App extends Component {
@@ -34,6 +38,11 @@ active(n){
           </div>
                 </header>
                 <Title />
+                <Portfolio />
+                <Resume />
+                <About />
+                <Drawings />
+
       </div>
     );
   }
