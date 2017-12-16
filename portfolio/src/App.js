@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Title from './Title';
+
 
 class App extends Component {
    myFunction() {
@@ -23,9 +24,7 @@ class App extends Component {
             <a href="javascript:void(0);" className="icon" onClick={()=>this.myFunction()}>&#9776;</a>
           </div>
                 </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+                <Title />
       </div>
     );
   }
