@@ -2,7 +2,7 @@
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #08082b;
 }
 
 .topnav a {
@@ -21,8 +21,8 @@
 }
 
 .active {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #114B5F;
+  color: #08082b;
 }
 
 .topnav .icon {
