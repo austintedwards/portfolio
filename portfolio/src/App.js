@@ -3,22 +3,25 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+   myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <nav>
-            <input type="checkbox" id="nav" class="hidden"/>
-            <label for="nav" class="nav-open"><i></i><i></i><i></i></label>
-            <div class="nav-container">
-              <ul>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            </div>
-          </nav>
+          <div className="topnav" id="myTopnav">
+            <a href="#home" className="active">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" className="icon" onClick={()=>this.myFunction()}>&#9776;</a>
+          </div>
                 </header>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
