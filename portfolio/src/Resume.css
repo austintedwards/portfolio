@@ -1,6 +1,11 @@
+#resume{
+  height: 100vh;
+
+}
 .resume{
 width:60%;
 height: auto;
 margin: auto;
 display: block;
+padding-top: 10vh;
 }

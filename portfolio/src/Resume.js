@@ -4,7 +4,7 @@ import './Resume.css';
 class Resume extends Component {
   render() {
     return (
-      <div className="Title">
+      <div id="resume">
         <img className="resume" src = "/images/resume.png"></img>
       </div>
     );

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './Title.css';
+import './Portfolio.css';
 
 class Portfolio extends Component {
   render() {
     return (
-      <div className="Title">
+      <div id="portfolio">
         <img className="titlelogo" src = "/images/titlelogo.png"></img>
       </div>
     );
