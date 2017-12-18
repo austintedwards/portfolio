@@ -114,6 +114,22 @@ padding-bottom: 1vh;
     float: right;
     display: block;
   }
+  .galvanize{
+    width: 5%;
+    height:5%;
+  }
+  .github{
+    width: 10%;
+    height:10%;
+  }
+  .linkedin{
+    width: 10%;
+    height:10%;
+  }
+  .gmail{
+    width: 10%;
+    height:10%;
+  }
 }
 
 @media screen and (max-width: 600px) {

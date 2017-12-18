@@ -19,3 +19,11 @@ height: 100vh;
   color: #08082b;
 
 }
+
+@media screen and (max-width: 600px) {
+  #about{
+  height: 100%;
+
+  }
+
+}
