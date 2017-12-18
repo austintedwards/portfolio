@@ -28,7 +28,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <div className="topnav" id="myTopnav">
-            <a href="#home" className="active">Home</a>
+            <a href="#title" className="active">Home</a>
             <a href="#portfolio" onClick={() => this.active(1)}>Portfolio</a>
             <a href="#resume">Resume</a>
             <a href="#about">About</a>
