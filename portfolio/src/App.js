@@ -37,10 +37,10 @@ class App extends Component {
           </div>
         </header>
         <div className="botnav" id="myBotnav">
-          <img src="/icon/gmail.png"></img>
-          <img src="/icon/galvanize.png"></img>
-          <img src="/icon/github.png"></img>
-          <img src="/icon/linkedin.png"></img>
+          <img className = "gmail" src="/icon/gmail.png"></img>
+          <img className = "galvanize" src="/icon/galvanize.png"></img>
+          <img className = "github" src="/icon/github.png"></img>
+          <img className = "linkedin" src="/icon/linkedin.png"></img>
         </div>
         <Title/>
         <Portfolio/>

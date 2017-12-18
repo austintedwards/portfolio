@@ -68,7 +68,7 @@ justify-content: space-around;
 }
 
 
-.botnav a:hover {
+.botnav img:hover {
   background-color: #ddd;
   color: black;
 }
@@ -81,10 +81,24 @@ justify-content: space-around;
 .botnav .icon {
   display: none;
 }
-.botnav img{
+
+.galvanize{
   width: 2.5%;
   height:2.5%;
 }
+.github{
+  width: 5%;
+  height:5%;
+}
+.linkedin{
+  width: 5%;
+  height:5%;
+}
+.gmail{
+  width: 5%;
+  height:5%;
+}
+
 
 @media screen and (max-width: 600px) {
   .botnav a:not(:first-child) {display: none;}
