@@ -5,6 +5,9 @@ background-color: #08082b;
 .topnav {
   overflow: hidden;
   background-color: #08082b;
+  position: fixed;
+  top:0;
+  width: 100%;
 }
 
 .topnav a {
