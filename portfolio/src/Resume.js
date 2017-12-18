@@ -6,7 +6,7 @@ class Resume extends Component {
     return (
       <div id="resume">
         <h1>Resume</h1>
-        <img className="resume" src = "/images/resume.png"></img>
+        <a href = "/images/resume.pdf"><img className="resume" src = "/images/resume.png"></img></a>
       </div>
     );
   }
