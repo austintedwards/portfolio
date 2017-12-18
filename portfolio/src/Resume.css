@@ -1,11 +1,12 @@
 #resume{
-  height: 100vh;
-
+  height: 100%;
+  text-align: center;
+  color: #d4d4f7
 }
 .resume{
 width:60%;
 height: auto;
 margin: auto;
 display: block;
-padding-top: 10vh;
+padding-bottom: 10vh;
 }
