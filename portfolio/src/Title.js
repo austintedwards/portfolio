@@ -4,7 +4,7 @@ import './Title.css';
 class Title extends Component {
   render() {
     return (
-      <div className="Title">
+      <div className="title">
         <img className="titlelogo" src = "/images/titlelogo.png"></img>
       </div>
     );
